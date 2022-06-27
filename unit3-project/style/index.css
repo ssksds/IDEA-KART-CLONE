@@ -1,0 +1,44 @@
+i{
+    font-size: 14px;
+    margin-left: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: rgb(54, 53, 53);
+    cursor: pointer;
+}
+i:hover{
+    text-decoration: underline;
+    color: blue;
+}
+#container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:50px 20px;
+    margin:auto;
+}
+#container>div{
+    border:2px solid rgb(236, 230, 230);
+    margin:auto;
+    justify-content: center;
+    text-align: center;
+}
+img{
+    height: 300px;
+    margin-left: 15px;
+    border-radius: 3px;
+}
+#top {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    padding-top: 20px;
+}
+#title:hover {
+    background-color: #776e44;
+  }
+  .fas fa-shopping-cart{
+    margin-left: 2px solid rgb(15, 9, 9);
+}

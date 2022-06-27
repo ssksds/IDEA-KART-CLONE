@@ -1,0 +1,30 @@
+img{
+    height: 300px;
+    margin-left: 15px;
+    border-radius: 3px;
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(2,10% 90%);
+}
+#side>p{
+  
+    color:rgb(14, 13, 13);
+    height: 44px;
+    overflow: hidden;
+}
+#sss{
+    display:flex;
+justify-content: center;
+}
+#sss>input{
+    border-radius: 34px;
+    width:220px;
+}
+#download{
+    padding: 20px;
+}
+#google{
+    margin: 20px;
+    background-color: aqua;
+}

@@ -1,0 +1,36 @@
+#error{
+    background-color: red;
+}
+#failed p{
+    border-bottom: 1px solid red;
+}
+form{
+    text-align: center;
+}
+#bcon {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 1.58;
+    letter-spacing: -0.003em;
+    font-weight: 400;
+    font-style: normal;
+
+    font-family: medium-content-serif-font, Georgia, Cambria,
+      "Times New Roman", Times, serif;
+  }
+  h1,
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+
+
+  

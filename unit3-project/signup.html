@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #usee {
+        text-align: center;
+      }
+      input {
+        display: block;
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.428571429;
+        color: #555;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-left: 22px;
+        margin: auto;
+      }
+      #fomadiv {
+        margin: auto;
+        width: 80%;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <h2>Sign Up</h2>
+    
+      <form onsubmit="submitData(event)" id="usee">
+        <label for="">Name</label><br />
+        <input type="text" id="name" /><br />
+
+        <label for="">Mobile Number</label><br />
+        <input type="number" id="mobile" />
+        <br />
+        <label for="">Email</label><br />
+        <input type="email" id="email" />
+        <br />
+        <label for="">Password</label><br />
+        <input type="password"  id="password" /> <br />
+        <br />
+        <label for="">Password confirmation</label><br />
+        <input type="password"  id="password2" />
+        <br />
+        <br />
+        <button id="add">Sign Up</button>
+      </form>
+    
+
+    <p><a href="./login.html">Login</a></p>
+    <div id="fotter"></div>
+  </body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./scripts/signup.js"></script>
+<script type="module">
+   import { navbar } from "../components/navbar.js";
+  let nav = (document.getElementById("navbar").innerHTML = navbar());
+
+  import { footer } from "../components/navbar.js";
+  let fot = (document.getElementById("fotter").innerHTML = footer());
+</script>
+
